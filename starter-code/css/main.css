@@ -24,7 +24,7 @@ html {
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0 auto;
-  background: url("/home/david/Documents/Ironhack/Week 1/Day 2/lab-css-instagram-clone/starter-code/images/bgtile.png");
+  background: url("../images/bgtile.png");
   background-repeat: repeat-x;
   max-width: 900px;
 
@@ -166,3 +166,21 @@ div, header, footer, nav, article {
 	border: 1px solid transparent;
 
 } 
+
+/*
+responsive & liquid || fluid
+avoid position
+float left - float right - over-flow-hidden 
+on parent for siblings
+
+try to use classes by default - only use id 
+for unique
+break into 2 lines
+
+example
+
+h1, 
+h2,
+h3 {
+
+}
